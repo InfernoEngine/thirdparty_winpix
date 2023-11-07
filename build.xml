@@ -10,15 +10,14 @@
 		<ThirdParty>true</ThirdParty>
 		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
 		
-		<Frozen>true</Frozen>
 		<FilterPlatform include="windows">
-			<FrozenDeployFiles>
+			<ThirdPartyDeployFiles>
 				bin\WinPixEventRuntime.dll
-			</FrozenDeployFiles>
+			</ThirdPartyDeployFiles>
 
-			<FrozenLibraryFiles>
+			<ThirdPartyLibraryFiles>
 				lib\WinPixEventRuntime.lib
-			</FrozenLibraryFiles>
+			</ThirdPartyLibraryFiles>
 		</FilterPlatform>
 
 	</StaticLibrary>
