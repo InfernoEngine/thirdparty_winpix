@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_winpix</Name>
+		<SourceRoot>.</SourceRoot>
+		<ThirdParty>true</ThirdParty>
+		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
+		
+		<Frozen>true</Frozen>
+		<FilterPlatform include="windows">
+			<FrozenDeployFiles>
+				bin\WinPixEventRuntime.dll
+			</FrozenDeployFiles>
+
+			<FrozenLibraryFiles>
+				lib\WinPixEventRuntime.lib
+			</FrozenLibraryFiles>
+		</FilterPlatform>
+
+	</StaticLibrary>
+
+</Module>
